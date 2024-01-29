@@ -8,7 +8,7 @@ from transliterate import to_cyrillic, to_latin
 from googletrans import Translator
 import telebot
 
-botapi = '6921859104:AAEeDeMw-NLyidrMZEVxlkmsKg174PuOq7c'
+botapi = '6921859104:AAEeDe.................lkmsKg174PuOq7c'
 bot = telebot.TeleBot(botapi, parse_mode=None)
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
